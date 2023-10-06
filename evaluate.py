@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 
 from transformers import LlamaTokenizer
-tokenizer = LlamaTokenizer.from_pretrained("/data/jiaan/model/chinese-llama-plus-7b")
+tokenizer = LlamaTokenizer.from_pretrained("/YOUR_MODEL_PATH/chinese-llama-plus-7b")
 
 def obtain_f1_and_em(a,b):
     global tokenizer
